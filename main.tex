@@ -24,8 +24,6 @@
 \begin{document}
 
 \section{Vektorer og trigonometri}
-hej
-
 
 \subsection{Bevis}
 
@@ -97,6 +95,57 @@ $$
 
 \section{Vektorer og linjer i planen}
 
-\subsection{Bevis}
+\subsection{Bevis af linjens parameterfremstilling}
+
+\begin{proofw}
+    Betragt følgende skitse:
+    \begin{figure}[h]
+        \centering
+        \includegraphics[scale=0.4]{skitser/linje_parameter.png}
+    \end{figure}
+
+Tager vi afsæt i punktet $P_0(x_0,y_0)$, hvis position kan beskrives
+med vektoren $\vec{OP}$. Tager vi et skridt langs en vektor, der er parallel med linjen,
+så vil vores nye position også være på linjen.
+Derfor må vi ved at gange retningsvektoren med et vilkårligt tal
+kunne ramme alle punkter på linjen.
+Så kan vi beskrive vektoren til punktet $P(x,y)$
+som vektoren til $P_0$ plus retningsvektoren skaleret:
+
+$$
+\vec{OP}=\vec{OP_0}+t\cdot \vec{r}
+$$
+
+Vi opsplitter $\vec{OP}$ i $\begin{pmatrix}
+    x \\ y
+\end{pmatrix}$ og $\vec{r}$ i $\begin{pmatrix}
+    r_1 \\ r_2
+\end{pmatrix}$:
+
+$$
+\begin{pmatrix}
+    x
+    \\
+    y
+\end{pmatrix}
+=\begin{pmatrix}
+    x_0
+    \\
+    y_0
+\end{pmatrix}
++
+t \cdot \begin{pmatrix}
+    r_1
+    \\
+    r_2
+\end{pmatrix}
+$$
+\end{proofw}
+
+\subsection{Bevis af linjens ligning}
+
+\begin{proofw}
+    
+\end{proofw}
 
 \end{document}

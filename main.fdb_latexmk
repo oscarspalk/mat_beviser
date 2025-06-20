@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1750414842.77383 "/Users/oscarspalk/eksamen/mat_beviser/main.tex" "main.pdf" "main" 1750414843.13097 0
-  "/Users/oscarspalk/eksamen/mat_beviser/main.tex" 1750414842.61232 2251 31ab0fd43788ceb28290e80097d4b9e3 ""
+["pdflatex"] 1750419621.56763 "/Users/oscarspalk/eksamen/mat_beviser/main.tex" "main.pdf" "main" 1750419621.9474 0
+  "/Users/oscarspalk/eksamen/mat_beviser/main.tex" 1750419621.31418 3303 4af7f53e4359f2a430673cff6f805366 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1246382020 916 f87d7c45f9c908e672703b83b72241a3 ""
@@ -12,6 +12,7 @@
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmr12.tfm" 1136768653 1288 655e228510b4c2a1abe905c368440826 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1248133631 32080 340ef9bf63678554ee606688e7b5339d ""
+  "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb" 1248133631 30251 6afa5cb1d0204815a708a080681d4674 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1248133631 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1248133631 35752 024fb6c41858982481f6968b5fc26508 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb" 1248133631 32762 224316ccc9ad3ca0423a14971cfa7fc1 ""
@@ -53,8 +54,9 @@
   "/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1745097425 5467155 19efa205003f9ecad95fbbaa6ff24da1 ""
   "/usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1745097386 3345741 6824ff7271468306abf78f6acd8061d5 ""
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
-  "main.aux" 1750414843.10467 649 8dfa661c2e61ad3800e248330c167efd "pdflatex"
-  "main.tex" 1750414842.61232 2251 31ab0fd43788ceb28290e80097d4b9e3 ""
+  "main.aux" 1750419621.91762 799 3c467125b2d52eb9aebd2caccb735838 "pdflatex"
+  "main.tex" 1750419621.31418 3303 4af7f53e4359f2a430673cff6f805366 ""
+  "skitser/linje_parameter.png" 1750418582.87819 34151 524e0ed58c8bd5205f6768e7ef485a45 ""
   "skitser/trekant_vektor_skitse.png" 1750412782.70768 48445 9eda44c3a8630354e7767774c344186d ""
   (generated)
   "main.aux"
