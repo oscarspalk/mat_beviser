@@ -104,6 +104,11 @@ INPUT ./skitser/linje_parameter.png
 INPUT ./skitser/linje_parameter.png
 INPUT ./skitser/linje_parameter.png
 INPUT ./skitser/linje_parameter.png
+INPUT ./skitser/linjens_ligning.png
+INPUT ./skitser/linjens_ligning.png
+INPUT ./skitser/linjens_ligning.png
+INPUT ./skitser/linjens_ligning.png
+INPUT ./skitser/linjens_ligning.png
 INPUT main.aux
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb

@@ -145,7 +145,54 @@ $$
 \subsection{Bevis af linjens ligning}
 
 \begin{proofw}
-    
+    Betragt nedenstående figur:
+    \begin{figure}[h]
+        \centering
+        \includegraphics[scale=0.4]{skitser/linjens_ligning.png}
+    \end{figure}
+
+    Vi kender $P_0(x_0,y_0)$ og normalvektoren $\vec{n}=\begin{pmatrix}
+        a \\ b
+    \end{pmatrix}$, $P(x,y)$ er et vilkårligt punkt langs linjen, som vi vil beskrive.
+    Vi kan lave en ortogonal vektor til $\vec{n}$ ved at lave vektoren $\vec{P_0P}=\begin{pmatrix}
+        x-x_0
+        \\
+        y-y_0
+    \end{pmatrix}$.
+    Tricket er så, at vi har 2 ortogonale vektorer, hvilket betyder,
+    at deres skalarprodukt er 0, derved kan vi opstille følgende udtryk, hvor $x$ og $y$ alle er punkter på linjen:
+
+    \begin{align*}
+        \vec{P_0P}&\cdot\vec{n}=0
+        \\
+        &\Downarrow
+        \\
+        \begin{pmatrix}
+            x-x_0
+            \\
+            y-y_0
+        \end{pmatrix}
+        &\cdot
+        \begin{pmatrix}
+            a \\
+            b
+        \end{pmatrix}=0
+        \\
+        \Downarrow
+        \\
+        a(x-x_0)&+b(y-y_0)=0
+        \\
+        \Downarrow
+        \\
+        ax+by+&(-ax_0-by_0)=0
+        \\
+        \Downarrow
+        \\
+        ax+by&+c=0
+    \end{align*}
+
+    Det er vist, at en linje kan beskrives ud fra et punkt og en normalvektor til linjen.
+
 \end{proofw}
 
 \end{document}

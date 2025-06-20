@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.4.19)  20 JUN 2025 13:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.4.19)  20 JUN 2025 13:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -259,27 +259,34 @@ File: skitser/linje_parameter.png Graphic file (type png)
 <use skitser/linje_parameter.png>
 Package pdftex.def Info: skitser/linje_parameter.png  used on input line 104.
 (pdftex.def)             Requested size: 207.57182pt x 123.2583pt.
+<skitser/linjens_ligning.png, id=16, 624.3325pt x 308.15125pt>
+File: skitser/linjens_ligning.png Graphic file (type png)
+<use skitser/linjens_ligning.png>
+Package pdftex.def Info: skitser/linjens_ligning.png  used on input line 151.
+(pdftex.def)             Requested size: 249.72858pt x 123.2583pt.
 
 
-[2 <./skitser/linje_parameter.png>] (./main.aux)
+[2 <./skitser/linje_parameter.png> <./skitser/linjens_ligning.png>]
+
+[3] (./main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 3965 strings out of 473190
- 59182 string characters out of 5715800
+ 3972 strings out of 473190
+ 59419 string characters out of 5715800
  463749 words of memory out of 5000000
- 27186 multiletter control sequences out of 15000+600000
+ 27193 multiletter control sequences out of 15000+600000
  561746 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,11n,65p,566b,315s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,14n,65p,566b,315s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb>
-Output written on main.pdf (2 pages, 109947 bytes).
+Output written on main.pdf (3 pages, 130704 bytes).
 PDF statistics:
- 51 PDF objects out of 1000 (max. 8388607)
- 28 compressed objects within 1 object stream
+ 56 PDF objects out of 1000 (max. 8388607)
+ 30 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

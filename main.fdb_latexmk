@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1750419621.56763 "/Users/oscarspalk/eksamen/mat_beviser/main.tex" "main.pdf" "main" 1750419621.9474 0
-  "/Users/oscarspalk/eksamen/mat_beviser/main.tex" 1750419621.31418 3303 4af7f53e4359f2a430673cff6f805366 ""
+["pdflatex"] 1750420448.78467 "/Users/oscarspalk/eksamen/mat_beviser/main.tex" "main.pdf" "main" 1750420449.17388 0
+  "/Users/oscarspalk/eksamen/mat_beviser/main.tex" 1750420448.61151 4573 4998af0848d399234c4e6498156e8857 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1246382020 916 f87d7c45f9c908e672703b83b72241a3 ""
@@ -54,9 +54,10 @@
   "/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1745097425 5467155 19efa205003f9ecad95fbbaa6ff24da1 ""
   "/usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1745097386 3345741 6824ff7271468306abf78f6acd8061d5 ""
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
-  "main.aux" 1750419621.91762 799 3c467125b2d52eb9aebd2caccb735838 "pdflatex"
-  "main.tex" 1750419621.31418 3303 4af7f53e4359f2a430673cff6f805366 ""
+  "main.aux" 1750420449.14573 799 15e309b995e87f5734751141bae174db "pdflatex"
+  "main.tex" 1750420448.61151 4573 4998af0848d399234c4e6498156e8857 ""
   "skitser/linje_parameter.png" 1750418582.87819 34151 524e0ed58c8bd5205f6768e7ef485a45 ""
+  "skitser/linjens_ligning.png" 1750419762.04362 39998 8c2bb51566c9c1b02b70f8eb563dbad9 ""
   "skitser/trekant_vektor_skitse.png" 1750412782.70768 48445 9eda44c3a8630354e7767774c344186d ""
   (generated)
   "main.aux"
