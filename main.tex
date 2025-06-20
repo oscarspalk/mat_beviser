@@ -1,6 +1,7 @@
 \documentclass{article}
     % General document formatting
     \usepackage[margin=0.7in]{geometry}
+    \usepackage{amsthm}
     \usepackage[parfill]{parskip}
     \usepackage[utf8]{inputenc}
     \usepackage{cancel}
@@ -8,6 +9,17 @@
     \graphicspath{./skitser/}
     % Related to math
     \usepackage{amsmath,amssymb,amsfonts,amsthm}
+
+\makeatletter
+\newenvironment{proofw}{\par
+  \pushQED{\qed}%
+  \normalfont \topsep6\p@\@plus6\p@\relax
+  \trivlist
+  \item[]\ignorespaces
+}{%
+  \popQED\endtrivlist\@endpefalse
+}
+\makeatother
 
 \begin{document}
 
@@ -17,7 +29,7 @@ hej
 
 \subsection{Bevis}
 
-\begin{proof}
+\begin{proofw}
     
 Betragt figur \ref{fig:trekant_vektor}, hvor en vinkel $v$ er udspændt af vektoren $\vec{x}$ og $\vec{y}$.
 
@@ -79,7 +91,7 @@ $$
         |\vec{x}||\vec{y}|
     }
 $$
-\end{proof}
+\end{proofw}
 
 \pagebreak
 
