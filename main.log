@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.4.19)  21 JUN 2025 19:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.4.19)  21 JUN 2025 20:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -299,24 +299,20 @@ Package pdftex.def Info: ./skitser/trekant_vektor_skitse.png  used on input line
 [1
 
 {/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./skitser/trekant_vektor_skitse.png>]
-<skitser/linje_parameter.png, id=14, 518.93875pt x 308.15125pt>
+<skitser/linje_parameter.png, id=13, 518.93875pt x 308.15125pt>
 File: skitser/linje_parameter.png Graphic file (type png)
 <use skitser/linje_parameter.png>
 Package pdftex.def Info: skitser/linje_parameter.png  used on input line 107.
 (pdftex.def)             Requested size: 207.57182pt x 123.2583pt.
-<skitser/linjens_ligning.png, id=15, 624.3325pt x 308.15125pt>
+
+
+[2 <./skitser/linje_parameter.png>]
+<skitser/linjens_ligning.png, id=21, 624.3325pt x 308.15125pt>
 File: skitser/linjens_ligning.png Graphic file (type png)
 <use skitser/linjens_ligning.png>
 Package pdftex.def Info: skitser/linjens_ligning.png  used on input line 154.
 (pdftex.def)             Requested size: 249.72858pt x 123.2583pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-
-[2 <./skitser/linje_parameter.png>]
-<skitser/cirkel.png, id=23, 835.12pt x 521.95pt>
+<skitser/cirkel.png, id=22, 835.12pt x 521.95pt>
 File: skitser/cirkel.png Graphic file (type png)
 <use skitser/cirkel.png>
 Package pdftex.def Info: skitser/cirkel.png  used on input line 208.
@@ -349,33 +345,39 @@ Package pdftex.def Info: skitser/areal_funktion.png  used on input line 468.
 (pdftex.def)             Requested size: 214.10152pt x 177.66512pt.
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-
 [6 <./skitser/tangent_plan.png>]
 
 [7 <./skitser/areal_funktion.png>]
+<skitser/omdrejningslegeme.png, id=51, 549.05125pt x 592.2125pt>
+File: skitser/omdrejningslegeme.png Graphic file (type png)
+<use skitser/omdrejningslegeme.png>
+Package pdftex.def Info: skitser/omdrejningslegeme.png  used on input line 535.
+(pdftex.def)             Requested size: 219.61661pt x 236.8808pt.
 
-[8] (./main.aux)
+
+[8 <./skitser/omdrejningslegeme.png>]
+
+[9]
+
+[10] (./main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 5731 strings out of 473190
- 91710 string characters out of 5715800
- 510092 words of memory out of 5000000
- 28913 multiletter control sequences out of 15000+600000
+ 5738 strings out of 473190
+ 91961 string characters out of 5715800
+ 511094 words of memory out of 5000000
+ 28920 multiletter control sequences out of 15000+600000
  566401 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  70i,14n,79p,566b,321s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb>
-Output written on main.pdf (8 pages, 346850 bytes).
+Output written on main.pdf (10 pages, 410728 bytes).
 PDF statistics:
- 109 PDF objects out of 1000 (max. 8388607)
- 60 compressed objects within 1 object stream
+ 117 PDF objects out of 1000 (max. 8388607)
+ 64 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
 

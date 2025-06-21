@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1750527481.72672 "/Users/oscarspalk/eksamen/mat_beviser/main.tex" "main.pdf" "main" 1750527482.30914 0
-  "/Users/oscarspalk/eksamen/mat_beviser/main.tex" 1750527480.87603 11817 7e0a93be2479d554b732f319785d2e48 ""
+["pdflatex"] 1750529695.41944 "/Users/oscarspalk/eksamen/mat_beviser/main.tex" "main.pdf" "main" 1750529696.04925 0
+  "/Users/oscarspalk/eksamen/mat_beviser/main.tex" 1750529695.23303 15254 ae6327f791ef91f70c7886b3112e9843 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -79,13 +79,14 @@
   "/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1745097425 5467155 19efa205003f9ecad95fbbaa6ff24da1 ""
   "/usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1745097386 3345741 6824ff7271468306abf78f6acd8061d5 ""
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
-  "main.aux" 1750527482.27064 2746 c6ea828eb95e26472fa187eea5e06de6 "pdflatex"
-  "main.tex" 1750527480.87603 11817 7e0a93be2479d554b732f319785d2e48 ""
-  "main.toc" 1750527482.27131 1633 f79bed4916bf3a481d6694e75a9298c5 "pdflatex"
+  "main.aux" 1750529696.01149 3150 7e8aecc6dc7439b8eebe44c936a20315 "pdflatex"
+  "main.tex" 1750529695.23303 15254 ae6327f791ef91f70c7886b3112e9843 ""
+  "main.toc" 1750529696.01225 1913 061921a679d0e110839eac03b12413d5 "pdflatex"
   "skitser/areal_funktion.png" 1750526532.29471 109767 9006718870bcdaf3ca3ca01642ac60d9 ""
   "skitser/cirkel.png" 1750421645.57742 85882 cae87d131d289362194243318d4a16ae ""
   "skitser/linje_parameter.png" 1750418582.87819 34151 524e0ed58c8bd5205f6768e7ef485a45 ""
   "skitser/linjens_ligning.png" 1750419762.04362 39998 8c2bb51566c9c1b02b70f8eb563dbad9 ""
+  "skitser/omdrejningslegeme.png" 1750527694.88105 113709 93f7dd20c9123cd4db0eda47a03c9980 ""
   "skitser/tangent_plan.png" 1750525004.73385 112341 014ff58f9b5b017771e7dda7fb0a005d ""
   "skitser/trekant_vektor_skitse.png" 1750412782.70768 48445 9eda44c3a8630354e7767774c344186d ""
   (generated)

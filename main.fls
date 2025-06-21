@@ -162,6 +162,11 @@ INPUT ./skitser/areal_funktion.png
 INPUT ./skitser/areal_funktion.png
 INPUT ./skitser/areal_funktion.png
 INPUT ./skitser/areal_funktion.png
+INPUT ./skitser/omdrejningslegeme.png
+INPUT ./skitser/omdrejningslegeme.png
+INPUT ./skitser/omdrejningslegeme.png
+INPUT ./skitser/omdrejningslegeme.png
+INPUT ./skitser/omdrejningslegeme.png
 INPUT main.aux
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb

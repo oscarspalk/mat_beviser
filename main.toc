@@ -8,13 +8,16 @@
 \contentsline {subsection}{\numberline {3.1}Bevis af cirklens parameterfremstilling}{3}{}%
 \contentsline {section}{\numberline {4}Funktioner og differentialregning}{4}{}%
 \contentsline {subsection}{\numberline {4.1}Bevis af differentialkvotienten for den naturlige eksponentialfunktion}{4}{}%
-\contentsline {section}{\numberline {5}Funktioner og differentialregning}{4}{}%
-\contentsline {subsection}{\numberline {5.1}Bevis af produktreglen}{4}{}%
+\contentsline {section}{\numberline {5}Funktioner og differentialregning}{5}{}%
+\contentsline {subsection}{\numberline {5.1}Bevis af produktreglen}{5}{}%
 \contentsline {section}{\numberline {6}Funktioner i to variable og differentialregning}{5}{}%
 \contentsline {subsection}{\numberline {6.1}Bevis af tangentplanens ligning}{5}{}%
 \contentsline {section}{\numberline {7}Integralregning og stamfunktioner}{6}{}%
 \contentsline {subsection}{\numberline {7.1}Bevis af at alle stamfunktioner til $f(x)$ er på form $F(x)+k$}{6}{}%
-\contentsline {section}{\numberline {8}Integralregning og arealer}{6}{}%
-\contentsline {subsection}{\numberline {8.1}Bevis af at arealfunktionen er stamfunktionen}{6}{}%
+\contentsline {section}{\numberline {8}Integralregning og arealer}{7}{}%
+\contentsline {subsection}{\numberline {8.1}Bevis af at arealfunktionen er stamfunktionen}{7}{}%
 \contentsline {section}{\numberline {9}Integralregning og omdrejningslegeme}{8}{}%
 \contentsline {subsection}{\numberline {9.1}Bevis af volumen af omdrejningslegeme}{8}{}%
+\contentsline {section}{\numberline {10}Differentialligninger}{9}{}%
+\contentsline {subsection}{\numberline {10.1}Bevis af $f$ er løsning til forskudt eksponential vækst}{9}{}%
+\contentsline {subsection}{\numberline {10.2}Løsning til forskudt eksponential vækst er $f$}{9}{}%
