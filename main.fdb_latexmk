@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1750582207.70882 "/Users/oscarspalk/eksamen/mat_beviser/main.tex" "main.pdf" "main" 1750582208.35572 0
-  "/Users/oscarspalk/eksamen/mat_beviser/main.tex" 1750582207.5402 17582 0db1cd35a565329c13583ecf13096684 ""
+["pdflatex"] 1750583152.10763 "/Users/oscarspalk/eksamen/mat_beviser/main.tex" "main.pdf" "main" 1750583152.75106 0
+  "/Users/oscarspalk/eksamen/mat_beviser/main.tex" 1750583151.24293 18825 d9ca0be34a4f1e3f85847cebcd4f765a ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -79,9 +79,9 @@
   "/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1745097425 5467155 19efa205003f9ecad95fbbaa6ff24da1 ""
   "/usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1745097386 3345741 6824ff7271468306abf78f6acd8061d5 ""
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
-  "main.aux" 1750582208.31444 3542 880db062df5977ff3af88cecfed3422a "pdflatex"
-  "main.tex" 1750582207.5402 17582 0db1cd35a565329c13583ecf13096684 ""
-  "main.toc" 1750582208.31522 2182 f047203a94addebd200bbac6d3a4e049 "pdflatex"
+  "main.aux" 1750583152.71181 3770 4f8769992d8d92dd88f17c74eb33e768 "pdflatex"
+  "main.tex" 1750583151.24293 18825 d9ca0be34a4f1e3f85847cebcd4f765a ""
+  "main.toc" 1750583152.71261 2328 c692f556738c53d94f8ca2c144ef3d09 "pdflatex"
   "skitser/areal_funktion.png" 1750526532.29471 109767 9006718870bcdaf3ca3ca01642ac60d9 ""
   "skitser/cirkel.png" 1750421645.57742 85882 cae87d131d289362194243318d4a16ae ""
   "skitser/linje_parameter.png" 1750418582.87819 34151 524e0ed58c8bd5205f6768e7ef485a45 ""
