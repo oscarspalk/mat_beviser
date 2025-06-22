@@ -21,3 +21,6 @@
 \contentsline {section}{\numberline {10}Differentialligninger}{9}{}%
 \contentsline {subsection}{\numberline {10.1}Bevis af $f$ er løsning til forskudt eksponential vækst}{9}{}%
 \contentsline {subsection}{\numberline {10.2}Løsning til forskudt eksponential vækst er $f$}{9}{}%
+\contentsline {section}{\numberline {11}Differentialligninger}{10}{}%
+\contentsline {subsection}{\numberline {11.1}Bevis af løsning for logistisk vækst}{10}{}%
+\contentsline {subsection}{\numberline {11.2}Bevis af løsning af logistisk vækst med bærefaktor}{12}{}%
