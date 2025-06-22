@@ -1,0 +1,130 @@
+
+\section{Differentialligninger}
+
+Forklar betydning af differentialligning og hvad der kendetegner logistisk vækst.
+
+\subsection{Bevis af løsning for logistisk vækst}
+
+\begin{proofw}
+    
+Vi vil vise den fuldstændige løsning for
+
+$$
+    y'=y \cdot (b-a\cdot y)
+$$
+
+Hvor løsningen $y \neq 0$.
+
+Først opskriver vi $f$ som differentialligningen:
+
+$$
+    f'(x)=f(x) \cdot (b-a \cdot f(x))
+$$
+
+Så introducerer vi en hjælpe funktion:
+
+$$
+    z(x)=\frac{1}{f(x)}
+$$
+
+Som vi differentierer vha. af kædereglen:
+
+$$
+    z'(x)=-\frac{1}{f(x)^2} \cdot f'(x)
+$$
+
+Her kan vi indsætte differentialligningen:
+
+$$
+    z'(x)=-\frac{1}{f(x)^2} \cdot f(x) \cdot (b-a \cdot f(x))
+$$
+
+$f(x)$ går ud og vi flytter faktoren op i tælleren:
+
+$$
+    z'(x)=-\frac{b-a \cdot f(x)}{f(x)}=\frac{a \cdot f(x)-b}{f(x)}=a-\frac{b}{f(x)}
+    =a-b\cdot \frac{1}{f(x)}
+$$
+
+Faktoren på $b$ er den samme som $z(x)$, derfor:
+
+$$
+    z(x)=a-b\cdot z(x)
+$$
+
+Hvilket er en differentialligning for forskudt eksponentiel vækst,
+hvis form og løsning er:
+
+\begin{align*}
+    y'&=b-a\cdot y
+    \\
+    y&=\frac{b}{a}+c \cdot e^{-a\cdot x}
+\end{align*}
+
+Dette anvendes på differentialligningen for $z$ og husker, at $a$ og $b$ er omvendte:
+
+$$
+    z(x)=\frac{a}{b}+c_1 \cdot e^{-b\cdot x}
+$$
+
+Så kan vi opstille følgende ligning:
+
+$$
+    \frac{1}{f(x)}=\frac{a}{b}+c_1 \cdot e^{-b\cdot x}
+$$
+
+Hvor vi isolerer $f(x)$:
+
+$$
+    f(x)=\frac{1}{\frac{a}{b}+c_1 \cdot e^{-b\cdot x}}
+$$
+
+Denne brøk forlænger vi med $\frac{b}{a}$:
+
+$$
+    f(x)=\frac{\frac{b}{a}}{\frac{b}{a} \cdot (\frac{a}{b}+c_1 \cdot e^{-b\cdot x})}
+    =\frac{\frac{b}{a}}{
+        1+\frac{b}{a}\cdot c_1 \cdot e^{-b \cdot x}
+    }
+    =
+    \frac{\frac{b}{a}}{
+        1+c_2 \cdot e^{-b \cdot x}
+    }
+$$
+
+Derved har vi vist løsningen er på ovenstående form for
+en differentialligning på nævnte form.
+
+\end{proofw}
+
+\subsection{Bevis af løsning af logistisk vækst med bærefaktor}
+
+\begin{proofw}
+    
+Vi vil vise den fuldstændige løsning for 
+
+$$y'=a \cdot y \cdot (M-y)$$
+
+Vi ganger $a$ ind i parentesen:
+
+$$y'=y \cdot (a\cdot M-a \cdot y)$$
+
+Nu har vi faktisk bare en normal logistisk vækst differentialligning,
+hvor $b=a \cdot M$, hvis fuldstændige løsning er:
+
+$$
+    y=\frac{
+\frac{a \cdot M}{a}
+    }{
+        1+c \cdot e^{-a\cdot M \cdot x}
+    }=
+    \frac{
+M
+    }{
+        1+c \cdot e^{-a\cdot M \cdot x}
+    }
+$$
+
+Herved er dette vist.
+
+\end{proofw}

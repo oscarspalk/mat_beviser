@@ -1,0 +1,127 @@
+
+\section{Sandsynlighedsregning og normalfordelingen}
+
+Forklar om tætheds- og fordelingsfunktion for en normalfordelt stokastisk variabel.
+
+\subsection{Bevis af middelværdien for en normalfordeling}
+
+\begin{proofw}
+    
+Vi anvender 2 tricks.
+Det første er, at for en ulige funktion dvs. $f(-x)=-f(x)$, så gælder:
+
+$$
+    \int_{-\infty}^{\infty} f(x) \,dx=0
+$$
+
+Og at integralet
+
+$$
+    \int_{-\infty}^{\infty} e^{
+        -\frac{x^2}{2}
+    }\,dx = \sqrt{2\pi}
+$$
+
+For en stokastisk variabel $X \sim N(\mu, \sigma)$
+med tæthedsfunktion $f(x)$, så kan vi lave en funktion for middelværdien.
+Denne kalder vi $E(x)$, og for alle $x$-værdier ganger vi med frekvensen (givet af tæthedsfunktionen),
+hvilket giver os middelværdien. Det gøres ved følgende integrale:
+
+$$
+    E(x)= \int_{-\infty}^{\infty}
+    x \cdot f(x) \,dx
+    =
+     \int_{-\infty}^{\infty}
+    x \cdot \frac{1}{\sqrt{2\pi} \sigma}
+    \cdot e^{
+        -\frac{1}{2} (\frac{x-\mu}{\sigma})^2
+    }
+    \,dx
+$$
+
+Vi substituerer med $t=\frac{x-\mu}{\sigma}$ og finder et udtryk for
+$x$ ved $x=t \cdot \sigma + \mu$. Og vi differentierer $t$ med hensyn til $x$:
+
+$$
+    \frac{\partial t}{\partial x}=\frac{1}{\sigma} \Rightarrow \partial x = \sigma \cdot \partial t
+$$
+
+Alt dette indsætter vi i integralet:
+$$
+ E(x)=\int_{-\infty}^{\infty}
+    (t \cdot \sigma + \mu) \cdot \frac{1}{\sqrt{2\pi} \sigma}
+    \cdot e^{
+        -\frac{1}{2} t^2
+    }
+    \sigma \,dt
+$$
+
+$\sigma$ går ud med hinanden, og så sætter vi $\frac{1}{\sqrt{2 \pi}}$ udenfor
+integralet, da det bare er en konstant.
+
+$$
+E(x)=\frac{1}{\sqrt{2\pi}} \cdot
+\int_{-\infty}^{\infty}
+    (t \cdot \sigma + \mu) \cdot
+    \cdot e^{
+        -\frac{1}{2} t^2
+    }
+    \,dt
+$$
+
+Vi ganger ind i parentesen og opsplitter integralet i 2,
+fordi vi må tage dem hver for sig:
+
+$$
+E(x)=\frac{1}{\sqrt{2\pi}} \cdot
+\int_{-\infty}^{\infty}
+    t \cdot \sigma
+    \cdot e^{
+        -\frac{1}{2} t^2
+    }
+    \,dt
+    +
+\frac{1}{\sqrt{2\pi}} \cdot
+\int_{-\infty}^{\infty}
+    \mu
+    \cdot e^{
+        -\frac{1}{2} t^2
+    }
+    \,dt
+$$
+
+Hvor vi kan sætte $\sigma$ og $\mu$ udenfor integralerne:
+
+$$
+E(x)=\frac{\sigma}{\sqrt{2\pi}} \cdot
+\int_{-\infty}^{\infty}
+    t
+    \cdot e^{
+        -\frac{1}{2} t^2
+    }
+    \,dt
+    +
+\frac{\mu}{\sqrt{2\pi}} \cdot
+\int_{-\infty}^{\infty}
+    e^{
+        -\frac{1}{2} t^2
+    }
+    \,dt
+$$
+
+Det ses, at det første integrale er integralet af en ulige funktion,
+derfor giver det 0. Det andet integrale er umuligt at
+løse analytisk og det giver $\sqrt{2\pi}$, derfor:
+
+$$
+E(x)=\frac{\sigma}{\sqrt{2\pi}} \cdot
+0
+    +
+\frac{\mu}{\sqrt{2\pi}} \cdot
+\sqrt{2\pi}=\mu
+$$
+
+Middelværdien for en normalfordeling er givet ved $\mu$ parameteret
+i tæthedsfunktionen.
+
+\end{proofw}

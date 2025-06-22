@@ -1,0 +1,129 @@
+
+\section{Kombinatorik og binomialfordelingen}
+
+Forklar hvad der kendetegner et binomialeksperiment, og argumenter for formlen for binomialsandsynligheder. 
+
+\subsection{Bevis for en binomialfordelt stokastisk variabels middelværdi}
+
+\begin{proofw}
+    
+Vi vil vise, at for $X \sim B(n,p)$, så er $\mu=n\cdot p$.
+Vi kan udregne sandsynligheden for $r$ successer ved:
+
+$$
+    P(X=r)=\begin{pmatrix}
+        n \\ r
+    \end{pmatrix}
+    \cdot p^r \cdot (1-p)^{n-r}
+$$
+
+$X$ kan kun antage hele antal successer, derfor må
+middelværdien være summen af hvert antal successer gange sandsynligheden for det antal successer:
+
+$$
+\mu =\sum_{r=0}^{n} r\cdot P(X=r)=
+\sum_{r=0}^{n} r \cdot \begin{pmatrix}
+        n \\ r
+    \end{pmatrix}
+    \cdot p^r \cdot (1-p)^{n-r}
+$$
+
+Da vi ganger med $r$, så er iterationen af $r=0$ ligegyldig, da den ikke bidrager til summen,
+derfor indekserer vi fra $r=1$:
+
+$$
+\mu =
+\sum_{r=1}^{n} r \cdot \begin{pmatrix}
+        n \\ r
+    \end{pmatrix}
+    \cdot p^r \cdot (1-p)^{n-r}
+$$
+
+Nu betragter vi $r \cdot \begin{pmatrix}
+        n \\ r
+    \end{pmatrix}$ leddet, hvilket vi kan omskrive:
+
+$$
+    r \cdot \begin{pmatrix}
+        n \\ r
+    \end{pmatrix}
+    =
+    r \cdot \frac{n!}{r!(n-r)!}
+    =
+    r \cdot \frac{1 \cdot 2 \cdot 3 ... n}{
+        1 \cdot 2 \cdot 3...r(n-r)!
+    }
+    =n \cdot \frac{(n-1)!}{
+        (r-1)!(n-r)!
+    }
+    =
+    n \cdot \frac{(n-1)!}{
+        (r-1)!((n-1)-(r-1))!
+    }
+$$
+
+Vi indfører $r'=r-1$ og $n'=n-1$, så udtrykket bliver til:
+
+$$
+r \cdot \begin{pmatrix}
+        n \\ r
+    \end{pmatrix}
+    =
+    n \cdot \frac{n'!}{r'!(n'-r')!}
+    =
+    n \cdot \begin{pmatrix}
+        n' \\ r'
+    \end{pmatrix}
+$$
+
+Det kan vi nu indsætte i vores sum:
+
+$$
+\mu =
+\sum_{r=1}^{n}  n \cdot \begin{pmatrix}
+        n' \\ r'
+    \end{pmatrix}
+    \cdot p^r \cdot (1-p)^{n-r}
+$$
+
+Da $n$ er en konstant, så kan vi sætte den udenfor og vi kan sætte et $p$ udenfor,
+og i det sidste led må $n-r=n'-r'$, derfor:
+
+$$
+\mu =
+n \cdot p \cdot \sum_{r=1}^{n}  \begin{pmatrix}
+        n' \\ r'
+    \end{pmatrix}
+    \cdot p^{r'} \cdot (1-p)^{n'-r'}
+$$
+
+Da hele udtrykket består af $r'$ og $n'$, så anvender vi disse i sumoperatøren i stedet:
+
+$$
+\mu =
+n \cdot p \cdot \sum_{r'=0}^{n'}  \begin{pmatrix}
+        n' \\ r'
+    \end{pmatrix}
+    \cdot p^{r'} \cdot (1-p)^{n'-r'}
+$$
+
+Betragter vi en anden stokatisk variabel $Z \sim B(n', p)$,
+må sandsynligheden for $r'$ antal successer være:
+
+$$
+    P(Z=r')=\begin{pmatrix}
+        n' \\ r'
+    \end{pmatrix}
+    \cdot p^{r'}
+    \cdot (1-p)^{n'-r'}
+$$
+
+Summen vi tager, som lægger alle sandsynligheder sammen
+må derfor give 1, og deraf:
+
+$$
+\mu =
+n \cdot p \cdot 1=n\cdot p
+$$
+
+\end{proofw}

@@ -1,0 +1,62 @@
+
+\section{Differentialligninger}
+
+Forklar betydning af differentialligning, samt hvad det betyder at en funktion er en løsning til en differentialligning.
+
+\subsection{Bevis af panserformlen}
+
+\begin{proofw}
+    
+Vi vil vise den fuldstændige løsning til differentialligningen
+
+$$
+    y'+a(x)\cdot y=b(x) \Leftrightarrow y'=-a(x) \cdot y + b(x) 
+$$
+
+Vi introducerer en hjælpe funktion $z$:
+
+$$
+    z(x)=f(x) \cdot e^{A(x)}
+$$
+
+Som vi differentierer, vi udnytter at pga. kædereglen,
+så er nedenstående sandt:
+
+$$
+    \left(e^{A(x)}\right)'=a(x) \cdot e^{A(x)}
+$$
+
+Og vi husker at anvende produktreglen:
+
+$$
+    z'(x)=f(x) \cdot a(x) \cdot e^{A(x)}+f'(x)\cdot e^{A(x)}
+$$
+
+Vi indsætter differentialligningen og sætter $e^{A(x)}$ udenfor parentes:
+
+$$
+    z'(x)= e^{A(x)} \cdot (f(x) \cdot a(x) +f'(x))=
+    e^{A(x)} \cdot (f(x) \cdot a(x) +b(x)-a(x)\cdot f(x))
+    = b(x) \cdot e^{A(x)}
+$$
+
+Da vores afledte kun er bestemt med udtryk af $x$,
+så kan vi blot integrere den for at finde stamfunktionen:
+
+$$z(x)= \int b(x) \cdot e^{A(x)} \,dx+c$$
+
+Nu kan vi isolere $f(x)$ fra vores første $z(x)$ udtryk:
+
+$$
+    f(x) \cdot e^{A(x)}=\int b(x) \cdot e^{A(x)} \,dx+c
+$$
+
+Vi deler med $e^{A(x)}$, hvilket svarer til at gange med $e^{-A(x)}$:
+
+$$
+    f(x)=e^{-A(x)} \cdot \int b(x) \cdot e^{A(x)} \,dx+c \cdot e^{-A(x)}
+$$
+
+Så er panserformlen bevist.
+
+\end{proofw}

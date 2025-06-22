@@ -1,0 +1,92 @@
+
+\section{Funktioner og differentialregning}
+
+Forklar hvad det betyder, at en funktion er differentiabel. 
+
+\subsection{Bevis af produktreglen}
+
+\begin{proofw}
+    
+
+Vi har 2 funktioner $f$ og $g$, og vi vil finde den afledte af deres produktfunktion, dvs.:
+
+$$
+    (f\cdot g)'(x)
+$$
+
+For hver funktion kan vi opstille en differenskvotient, som bliver til differentialkvotienter, når vi lader $h \rightarrow 0$:
+
+$$
+    \frac{f(x+h)-f(x)}{h} \xrightarrow[h \rightarrow 0]{} f'(x)
+$$
+
+$$
+    \frac{g(x+h)-g(x)}{h} \xrightarrow[h \rightarrow 0]{} g'(x)
+$$
+
+Så opskriver vi differenskvotienten for funktionen $(f \cdot g)(x)$:
+
+$$
+    \frac{
+        f(x+h)\cdot g(x+h)
+        -
+        f(x) \cdot g(x)
+    }{h}
+$$
+
+Så lægger vi $f(x) \cdot g(x+h)$ til og trækker det fra:
+
+$$
+    \frac{
+        f(x+h)\cdot g(x+h)
+        -
+        f(x) \cdot g(x+h)
+        +
+        f(x) \cdot g(x+h)
+        -
+        f(x) \cdot g(x)
+    }{h}
+$$
+
+Det ses, at $g(x+h)$ og $f(x)$ kan sættes udenfor parentes:
+
+$$
+    \frac{
+        g(x+h) \cdot (f(x+h)
+        -
+        f(x))
+        +
+        f(x) \cdot (g(x+h)
+        -
+     \cdot g(x))
+    }{h}
+$$
+
+Vi opsplitter brøken i 2, og sætter $g(x+h)$ og $f(x)$ udenfor brøkerne:
+
+$$
+    g(x+h) \cdot \frac{
+          f(x+h)
+        -
+        f(x)   
+    }{h}
+    +
+        f(x) \cdot 
+        \frac{g(x+h)
+        -
+      g(x)}{h}
+$$
+
+Så lader vi $h \rightarrow 0$:
+
+$$
+    g(x) \cdot f'(x)+f(x) \cdot g'(x)
+$$
+
+Så:
+
+$$
+    (f \cdot g)'(x)=    g(x) \cdot f'(x)+f(x) \cdot g'(x)
+$$
+
+\end{proofw}

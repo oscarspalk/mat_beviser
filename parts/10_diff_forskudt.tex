@@ -1,0 +1,95 @@
+
+\section{Differentialligninger}
+
+Forklar betydning af differentialligning, samt hvad det betyder at en funktion er en løsning til en differentialligning.
+
+\subsection{Bevis af $f$ er løsning til forskudt eksponential vækst}
+
+\begin{proofw}
+    Vi skal bevise, at
+    $$f(x)=\frac{b}{a}+c\cdot e^{-a \cdot x}$$
+    
+    er en løsning til differentialligningen:
+
+    $$y'=b-a\cdot y$$
+
+    Først differentierer vi $f$:
+
+    $$
+        f'(x)=-a\cdot c\cdot e^{-a\cdot x}
+    $$
+
+    Så indsætter vi $f(x)$ i differentialligningen:
+
+    $$
+        y'=b-a \cdot \left(\frac{b}{a}+c \cdot e^{-a\cdot x} \right)=b-b+a\cdot c\cdot e^{-a\cdot x}=a\cdot c\cdot e^{-a\cdot x}
+    $$
+
+    Så sammenligner vi den differentierede funktion og funktionen indsat i differentialligningen,
+    de ser søreme ens ud. Så $f$ er løsning til $y'$.
+\end{proofw}
+
+\subsection{Løsning til forskudt eksponential vækst er $f$}
+
+\begin{proofw}
+    
+Vi vil bevise, at løsningen til 
+
+$$y'=b-a\cdot y$$
+
+er på formen:
+
+$$
+    y=\frac{b}{a}+c\cdot e^{-a \cdot x}
+$$
+
+Dette gøres ved at indføre en hjælpe funktion $z(x)$ defineret som:
+
+$$
+    z(x)=b-a\cdot f(x)
+$$
+
+Som vi differentierer:
+
+$$
+    z'(x)=-a\cdot f'(x)
+$$
+
+Ifølge differentialligningen indsætter vi så $f'(x)=b-a\cdot f(x)$:
+
+$$
+    z'(x)=-a\cdot (b-a \cdot f(x))
+$$
+
+Hvilket er det samme som $z(x)$, derfor:
+
+$$
+    z'(x)=-a\cdot z(x)
+$$
+
+Dette er en differentialligning af typen eksponentiel vækst,
+hvorved den fuldstændige løsning er givet ved:
+
+$$
+    z(x)=c_1\cdot e^{-a\cdot x}
+$$
+
+Det betyder, at:
+
+\begin{align*}
+    c_1\cdot e^{-a\cdot x}&=b-a\cdot f(x)
+    \\
+    &\Updownarrow
+    \\
+    a\cdot f(x)&=b-c_1\cdot e^{-a\cdot x}
+     \\
+    &\Updownarrow
+    \\
+    f(x)&=\frac{b}{a}-\frac{c_1}{a}\cdot e^{-a\cdot x}
+    \\
+    &\Downarrow
+    \\
+    f(x)&=\frac{b}{a}+c_2\cdot e^{-a\cdot x}
+\end{align*}
+
+\end{proofw}
