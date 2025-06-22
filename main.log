@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.4.19)  22 JUN 2025 13:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.4.19)  22 JUN 2025 15:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -300,7 +300,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 <./skitser/trekant_vektor_skitse.png, id=10, 518.93875pt x 308.15125pt>
 File: ./skitser/trekant_vektor_skitse.png Graphic file (type png)
 <use ./skitser/trekant_vektor_skitse.png>
-Package pdftex.def Info: ./skitser/trekant_vektor_skitse.png  used on input line 27.
+Package pdftex.def Info: ./skitser/trekant_vektor_skitse.png  used on input line 31.
 (pdftex.def)             Requested size: 155.68282pt x 92.44608pt.
 
 
@@ -324,20 +324,24 @@ Package pdftex.def Info: skitser/linjens_ligning.png  used on input line 72.
 (pdftex.def)             Requested size: 249.72858pt x 123.2583pt.
 
 
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+
 [4
 
 
 
- <./skitser/linje_parameter.png> <./skitser/linjens_ligning.png>])
+ <./skitser/linje_parameter.png>])
 
-[5]
+[5 <./skitser/linjens_ligning.png>]
 \openout2 = `parts/3_vektorer_funktioner.aux'.
 
  (./parts/3_vektorer_funktioner.tex
 <skitser/cirkel.png, id=34, 835.12pt x 521.95pt>
 File: skitser/cirkel.png Graphic file (type png)
 <use skitser/cirkel.png>
-Package pdftex.def Info: skitser/cirkel.png  used on input line 11.
+Package pdftex.def Info: skitser/cirkel.png  used on input line 26.
 (pdftex.def)             Requested size: 250.53793pt x 156.5862pt.
 )
 
@@ -357,24 +361,26 @@ Package pdftex.def Info: skitser/cirkel.png  used on input line 11.
 ]
 \openout2 = `parts/5_funktioner_differential.aux'.
 
- (./parts/5_funktioner_differential.tex)
+ (./parts/5_funktioner_differential.tex
 
 [8
 
 
 
-]
+])
+
+[9]
 \openout2 = `parts/6_funktioner_2_variable.aux'.
 
  (./parts/6_funktioner_2_variable.tex
-<skitser/tangent_plan.png, id=49, 368.37625pt x 332.24126pt>
+<skitser/tangent_plan.png, id=52, 368.37625pt x 332.24126pt>
 File: skitser/tangent_plan.png Graphic file (type png)
 <use skitser/tangent_plan.png>
 Package pdftex.def Info: skitser/tangent_plan.png  used on input line 14.
 (pdftex.def)             Requested size: 184.18767pt x 166.12021pt.
 )
 
-[9
+[10
 
 
 
@@ -383,7 +389,7 @@ Package pdftex.def Info: skitser/tangent_plan.png  used on input line 14.
 
  (./parts/7_integral_stamfunk.tex)
 
-[10
+[11
 
 
 
@@ -391,64 +397,64 @@ Package pdftex.def Info: skitser/tangent_plan.png  used on input line 14.
 \openout2 = `parts/8_integral_areal.aux'.
 
  (./parts/8_integral_areal.tex
-<skitser/areal_funktion.png, id=59, 713.66624pt x 592.2125pt>
+<skitser/areal_funktion.png, id=62, 713.66624pt x 592.2125pt>
 File: skitser/areal_funktion.png Graphic file (type png)
 <use skitser/areal_funktion.png>
 Package pdftex.def Info: skitser/areal_funktion.png  used on input line 12.
 (pdftex.def)             Requested size: 214.10152pt x 177.66512pt.
 
 
-[11
+[12
 
 
 
  <./skitser/areal_funktion.png>])
 
-[12]
+[13]
 \openout2 = `parts/9_integral_omdrejning.aux'.
 
  (./parts/9_integral_omdrejning.tex
-<skitser/omdrejningslegeme.png, id=67, 549.05125pt x 592.2125pt>
+<skitser/omdrejningslegeme.png, id=71, 549.05125pt x 592.2125pt>
 File: skitser/omdrejningslegeme.png Graphic file (type png)
 <use skitser/omdrejningslegeme.png>
 Package pdftex.def Info: skitser/omdrejningslegeme.png  used on input line 12.
 (pdftex.def)             Requested size: 219.61661pt x 236.8808pt.
 
 
-[13
+[14
 
 
 
  <./skitser/omdrejningslegeme.png>])
 
-[14]
+[15]
 \openout2 = `parts/10_diff_forskudt.aux'.
 
  (./parts/10_diff_forskudt.tex
 
-[15
+[16
 
 
 
 ])
 
-[16]
+[17]
 \openout2 = `parts/11_diff_logistisk.aux'.
 
  (./parts/11_diff_logistisk.tex
 
-[17
+[18
 
 
 
 ])
 
-[18]
+[19]
 \openout2 = `parts/12_diff_panser.aux'.
 
  (./parts/12_diff_panser.tex)
 
-[19
+[20
 
 
 
@@ -457,7 +463,7 @@ Package pdftex.def Info: skitser/omdrejningslegeme.png  used on input line 12.
 
  (./parts/13_sandsynlighed_normal.tex)
 
-[20
+[21
 
 
 
@@ -466,13 +472,13 @@ Package pdftex.def Info: skitser/omdrejningslegeme.png  used on input line 12.
 
  (./parts/14_kombinatorik_binomial.tex
 
-[21
+[22
 
 
 
 ])
 
-[22] (./main.aux (./parts/1_vektorer_trigonometri.aux) (./parts/2_vektorer_linjer.aux) (./parts/3_vektorer_funktioner.aux) (./parts/4_funktioner_differential.aux) (./parts/5_funktioner_differential.aux) (./parts/6_funktioner_2_variable.aux) (./parts/7_integral_stamfunk.aux) (./parts/8_integral_areal.aux) (./parts/9_integral_omdrejning.aux) (./parts/10_diff_forskudt.aux) (./parts/11_diff_logistisk.aux) (./parts/12_diff_panser.aux) (./parts/13_sandsynlighed_normal.aux) (./parts/14_kombinatorik_binomial.aux))
+[23] (./main.aux (./parts/1_vektorer_trigonometri.aux) (./parts/2_vektorer_linjer.aux) (./parts/3_vektorer_funktioner.aux) (./parts/4_funktioner_differential.aux) (./parts/5_funktioner_differential.aux) (./parts/6_funktioner_2_variable.aux) (./parts/7_integral_stamfunk.aux) (./parts/8_integral_areal.aux) (./parts/9_integral_omdrejning.aux) (./parts/10_diff_forskudt.aux) (./parts/11_diff_logistisk.aux) (./parts/12_diff_panser.aux) (./parts/13_sandsynlighed_normal.aux) (./parts/14_kombinatorik_binomial.aux))
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -481,16 +487,16 @@ L3 programming layer <2025-01-18>
 Here is how much of TeX's memory you used:
  6091 strings out of 473190
  106312 string characters out of 5715800
- 515692 words of memory out of 5000000
+ 515693 words of memory out of 5000000
  29173 multiletter control sequences out of 15000+600000
  566747 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  70i,14n,79p,566b,321s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb>
-Output written on main.pdf (22 pages, 464310 bytes).
+Output written on main.pdf (23 pages, 468009 bytes).
 PDF statistics:
- 170 PDF objects out of 1000 (max. 8388607)
- 99 compressed objects within 1 object stream
+ 174 PDF objects out of 1000 (max. 8388607)
+ 101 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  36 words of extra memory for PDF output out of 10000 (max. 10000000)
 

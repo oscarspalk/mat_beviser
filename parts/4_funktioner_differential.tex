@@ -1,5 +1,29 @@
-
 \section{Funktioner og differentialregning}
+
+\emph{Forklar hvad det betyder, at en funktion er differentiabel.}
+
+En funktion er defineret i et interval, i et mindre udsnit
+eller et mindre interval definerer vi hældningen
+som ændringen på $y$-aksen over ændringen på $x$-aksen.
+For store $\Delta x$ er det ret grove approksimationer,
+men når $\Delta x \rightarrow 0$, så er hældningen
+et godt udtryk for, hvor meget funktionen vokser lige nu.
+
+Det kræver dog, at funktionen er defineret i intervallet
+og er kontinuer, altså ikke knækker midt i det hele.
+
+Hvis en funktion er det, så kan vi opskrive dens differenskvotient:
+
+$$
+    \frac{\Delta y}{h}=\frac{f(x+h)-f(x)}{h}
+$$
+
+Hvis vi lader $h \rightarrow 0$, så får vi differentialkvotienten, som vi noterer:
+
+$$
+    \lim_{h \rightarrow 0}     \frac{\Delta y}{h}=\frac{f(x+h)-f(x)}{h}
+    =f'(x)
+$$
 
 Den naturlige eksponential funktion er defineret som Eulers tal $e$ opløftet i $x$:
 
@@ -31,4 +55,3 @@ Det som gør den speciel er, at dens hældning også er $1$ i $(0,1)$.
 
     Derved er det bevist, at $\frac{\partial}{\partial x} e^x=e^x$.
 \end{proofw}
-Forklar hvad det betyder, at en funktion er differentiabel.
