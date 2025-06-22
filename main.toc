@@ -1,32 +1,32 @@
 \babel@toc {danish}{}\relax 
 \contentsline {section}{\numberline {1}Vektorer og trigonometri}{2}{}%
 \contentsline {subsection}{\numberline {1.1}Bevis}{2}{}%
-\contentsline {section}{\numberline {2}Vektorer og linjer i planen}{3}{}%
-\contentsline {subsection}{\numberline {2.1}Bevis af linjens parameterfremstilling}{3}{}%
-\contentsline {subsection}{\numberline {2.2}Bevis af linjens ligning}{3}{}%
-\contentsline {section}{\numberline {3}Vektorer og vektorfunktioner}{5}{}%
-\contentsline {subsection}{\numberline {3.1}Bevis af cirklens parameterfremstilling}{5}{}%
-\contentsline {section}{\numberline {4}Funktioner og differentialregning}{6}{}%
-\contentsline {subsection}{\numberline {4.1}Bevis af differentialkvotienten for den naturlige eksponentialfunktion}{6}{}%
-\contentsline {section}{\numberline {5}Funktioner og differentialregning}{7}{}%
-\contentsline {subsection}{\numberline {5.1}Bevis af produktreglen}{7}{}%
-\contentsline {section}{\numberline {6}Funktioner i to variable og differentialregning}{8}{}%
-\contentsline {subsection}{\numberline {6.1}Bevis af tangentplanens ligning}{8}{}%
-\contentsline {section}{\numberline {7}Integralregning og stamfunktioner}{9}{}%
-\contentsline {subsection}{\numberline {7.1}Bevis af at alle stamfunktioner til $f(x)$ er på form $F(x)+k$}{9}{}%
-\contentsline {section}{\numberline {8}Integralregning og arealer}{10}{}%
-\contentsline {subsection}{\numberline {8.1}Bevis af at arealfunktionen er stamfunktionen}{10}{}%
-\contentsline {section}{\numberline {9}Integralregning og omdrejningslegeme}{12}{}%
-\contentsline {subsection}{\numberline {9.1}Bevis af volumen af omdrejningslegeme}{12}{}%
-\contentsline {section}{\numberline {10}Differentialligninger}{14}{}%
-\contentsline {subsection}{\numberline {10.1}Bevis af $f$ er løsning til forskudt eksponential vækst}{14}{}%
-\contentsline {subsection}{\numberline {10.2}Løsning til forskudt eksponential vækst er $f$}{14}{}%
-\contentsline {section}{\numberline {11}Differentialligninger}{16}{}%
-\contentsline {subsection}{\numberline {11.1}Bevis af løsning for logistisk vækst}{16}{}%
-\contentsline {subsection}{\numberline {11.2}Bevis af løsning af logistisk vækst med bærefaktor}{17}{}%
-\contentsline {section}{\numberline {12}Differentialligninger}{18}{}%
-\contentsline {subsection}{\numberline {12.1}Bevis af panserformlen}{18}{}%
-\contentsline {section}{\numberline {13}Sandsynlighedsregning og normalfordelingen}{19}{}%
-\contentsline {subsection}{\numberline {13.1}Bevis af middelværdien for en normalfordeling}{19}{}%
-\contentsline {section}{\numberline {14}Kombinatorik og binomialfordelingen}{20}{}%
-\contentsline {subsection}{\numberline {14.1}Bevis for en binomialfordelt stokastisk variabels middelværdi}{20}{}%
+\contentsline {section}{\numberline {2}Vektorer og linjer i planen}{4}{}%
+\contentsline {subsection}{\numberline {2.1}Bevis af linjens parameterfremstilling}{4}{}%
+\contentsline {subsection}{\numberline {2.2}Bevis af linjens ligning}{4}{}%
+\contentsline {section}{\numberline {3}Vektorer og vektorfunktioner}{6}{}%
+\contentsline {subsection}{\numberline {3.1}Bevis af cirklens parameterfremstilling}{6}{}%
+\contentsline {section}{\numberline {4}Funktioner og differentialregning}{7}{}%
+\contentsline {subsection}{\numberline {4.1}Bevis af differentialkvotienten for den naturlige eksponentialfunktion}{7}{}%
+\contentsline {section}{\numberline {5}Funktioner og differentialregning}{8}{}%
+\contentsline {subsection}{\numberline {5.1}Bevis af produktreglen}{8}{}%
+\contentsline {section}{\numberline {6}Funktioner i to variable og differentialregning}{9}{}%
+\contentsline {subsection}{\numberline {6.1}Bevis af tangentplanens ligning}{9}{}%
+\contentsline {section}{\numberline {7}Integralregning og stamfunktioner}{10}{}%
+\contentsline {subsection}{\numberline {7.1}Bevis af at alle stamfunktioner til $f(x)$ er på form $F(x)+k$}{10}{}%
+\contentsline {section}{\numberline {8}Integralregning og arealer}{11}{}%
+\contentsline {subsection}{\numberline {8.1}Bevis af at arealfunktionen er stamfunktionen}{11}{}%
+\contentsline {section}{\numberline {9}Integralregning og omdrejningslegeme}{13}{}%
+\contentsline {subsection}{\numberline {9.1}Bevis af volumen af omdrejningslegeme}{13}{}%
+\contentsline {section}{\numberline {10}Differentialligninger}{15}{}%
+\contentsline {subsection}{\numberline {10.1}Bevis af $f$ er løsning til forskudt eksponential vækst}{15}{}%
+\contentsline {subsection}{\numberline {10.2}Løsning til forskudt eksponential vækst er $f$}{15}{}%
+\contentsline {section}{\numberline {11}Differentialligninger}{17}{}%
+\contentsline {subsection}{\numberline {11.1}Bevis af løsning for logistisk vækst}{17}{}%
+\contentsline {subsection}{\numberline {11.2}Bevis af løsning af logistisk vækst med bærefaktor}{18}{}%
+\contentsline {section}{\numberline {12}Differentialligninger}{19}{}%
+\contentsline {subsection}{\numberline {12.1}Bevis af panserformlen}{19}{}%
+\contentsline {section}{\numberline {13}Sandsynlighedsregning og normalfordelingen}{20}{}%
+\contentsline {subsection}{\numberline {13.1}Bevis af middelværdien for en normalfordeling}{20}{}%
+\contentsline {section}{\numberline {14}Kombinatorik og binomialfordelingen}{21}{}%
+\contentsline {subsection}{\numberline {14.1}Bevis for en binomialfordelt stokastisk variabels middelværdi}{21}{}%
